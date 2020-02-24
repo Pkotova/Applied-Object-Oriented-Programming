@@ -15,12 +15,12 @@ import java.util.Scanner;
 
 public class FiveDigitsPalindrome {     // returns true if the number has 5 digits
 
-    static boolean isFiveDigits(int number)
+    public static boolean isFiveDigits(int number)
     {
         return (number >= 10000 && number <=99999); //range of 5 digit numbers
     }
 
-    static int reverseNumber(int number)    //reverse the number
+    public static int reverseNumber(int number)    //reverse the number
     {
         int reverse = 0;
         while(number != 0)                  // while the number is different from 0
@@ -32,7 +32,7 @@ public class FiveDigitsPalindrome {     // returns true if the number has 5 digi
         return reverse;                     // return the returned number
     }
 
-    static String isPalindrome(int number){   // if the number is equals to its reversed number
+    public static String isPalindrome(int number){   // if the number is equals to its reversed number
                                               // so its palindrome
        if (number == reverseNumber(number)){  // the method returns message (String)
            return "It is palindrome!";        // it is possible to be boolean type
