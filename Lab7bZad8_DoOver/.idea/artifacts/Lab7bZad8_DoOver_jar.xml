@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Lab7bZad8_DoOver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab7bZad8_DoOver_jar</output-path>
+    <root id="archive" name="Lab7bZad8_DoOver.jar">
+      <element id="module-output" name="Lab7bZad8_DoOver" />
+    </root>
+  </artifact>
+</component>
